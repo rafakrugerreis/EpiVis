@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('JetBrainsMono-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'JetBrains Mono', Arial, sans-serif;
+    background-color: gray;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.dashboard-header {
+    background-color: #4CAF50;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.dashboard-content {
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-container {
+    margin-bottom: 20px;
+}
+
+.dcc-dropdown {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
